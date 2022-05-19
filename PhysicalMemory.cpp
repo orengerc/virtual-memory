@@ -3,6 +3,7 @@
 #include <unordered_map>
 #include <cassert>
 #include <cstdio>
+#include <iostream>
 
 typedef std::vector<word_t> page_t;
 
@@ -23,6 +24,10 @@ void PMread(uint64_t physicalAddress, word_t* value) {
     uint64_t frameIndex = physicalAddress / PAGE_SIZE;
     uint64_t frameOffset = physicalAddress % PAGE_SIZE;
     *value = RAM[frameIndex][frameOffset];
+//    std::cout << RAM[frameIndex][frameOffset] << "\n";
+//    std::cout << *value << "\n";
+//    int a=1;
+
  }
 
 void PMwrite(uint64_t physicalAddress, word_t value) {

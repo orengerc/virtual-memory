@@ -6,7 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/cs/usr/oren_gerc/OS/virtual-memory/main.cpp
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/BitwiseOps.h
+MemoryConstants.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
+
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
+climits
+-
+stdint.h
+-
+
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
+MemoryConstants.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
+
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.cpp
+VirtualMemory.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.h
+PhysicalMemory.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
+BitwiseOps.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/BitwiseOps.h
+bitset
+-
 iostream
 -
+string.h
+-
+
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.h
+MemoryConstants.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
 

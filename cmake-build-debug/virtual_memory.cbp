@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/BitwiseOps.h">
+			<Option target="virtual_memory"/>
+		</Unit>
 		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.cpp">
 			<Option target="virtual_memory"/>
 		</Unit>

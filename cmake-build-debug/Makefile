@@ -129,29 +129,77 @@ virtual_memory/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/build
 .PHONY : virtual_memory/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+PhysicalMemory.o: PhysicalMemory.cpp.o
+.PHONY : PhysicalMemory.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/main.cpp.o
-.PHONY : main.cpp.o
+PhysicalMemory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o
+.PHONY : PhysicalMemory.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+PhysicalMemory.i: PhysicalMemory.cpp.i
+.PHONY : PhysicalMemory.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/main.cpp.i
-.PHONY : main.cpp.i
+PhysicalMemory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.i
+.PHONY : PhysicalMemory.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+PhysicalMemory.s: PhysicalMemory.cpp.s
+.PHONY : PhysicalMemory.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/main.cpp.s
-.PHONY : main.cpp.s
+PhysicalMemory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.s
+.PHONY : PhysicalMemory.cpp.s
+
+SimpleTest.o: SimpleTest.cpp.o
+.PHONY : SimpleTest.o
+
+# target to build an object file
+SimpleTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o
+.PHONY : SimpleTest.cpp.o
+
+SimpleTest.i: SimpleTest.cpp.i
+.PHONY : SimpleTest.i
+
+# target to preprocess a source file
+SimpleTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/SimpleTest.cpp.i
+.PHONY : SimpleTest.cpp.i
+
+SimpleTest.s: SimpleTest.cpp.s
+.PHONY : SimpleTest.s
+
+# target to generate assembly for a file
+SimpleTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/SimpleTest.cpp.s
+.PHONY : SimpleTest.cpp.s
+
+VirtualMemory.o: VirtualMemory.cpp.o
+.PHONY : VirtualMemory.o
+
+# target to build an object file
+VirtualMemory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o
+.PHONY : VirtualMemory.cpp.o
+
+VirtualMemory.i: VirtualMemory.cpp.i
+.PHONY : VirtualMemory.i
+
+# target to preprocess a source file
+VirtualMemory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.i
+.PHONY : VirtualMemory.cpp.i
+
+VirtualMemory.s: VirtualMemory.cpp.s
+.PHONY : VirtualMemory.s
+
+# target to generate assembly for a file
+VirtualMemory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.s
+.PHONY : VirtualMemory.cpp.s
 
 # Help Target
 help:
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... virtual_memory"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... PhysicalMemory.o"
+	@echo "... PhysicalMemory.i"
+	@echo "... PhysicalMemory.s"
+	@echo "... SimpleTest.o"
+	@echo "... SimpleTest.i"
+	@echo "... SimpleTest.s"
+	@echo "... VirtualMemory.o"
+	@echo "... VirtualMemory.i"
+	@echo "... VirtualMemory.s"
 .PHONY : help
 
 

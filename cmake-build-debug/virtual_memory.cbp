@@ -82,7 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/main.cpp">
+		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.cpp">
+			<Option target="virtual_memory"/>
+		</Unit>
+		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.h">
+			<Option target="virtual_memory"/>
+		</Unit>
+		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/SimpleTest.cpp">
+			<Option target="virtual_memory"/>
+		</Unit>
+		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.cpp">
+			<Option target="virtual_memory"/>
+		</Unit>
+		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.h">
 			<Option target="virtual_memory"/>
 		</Unit>
 		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/CMakeLists.txt">

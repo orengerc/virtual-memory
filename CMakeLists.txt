@@ -3,4 +3,4 @@ project(virtual_memory)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(virtual_memory main.cpp)
+add_executable(virtual_memory SimpleTest.cpp PhysicalMemory.cpp VirtualMemory.cpp VirtualMemory.cpp)

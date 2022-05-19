@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/virtual_memory.dir/main.cpp.o -o virtual_memory 
+/usr/bin/c++ -g CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o -o virtual_memory 

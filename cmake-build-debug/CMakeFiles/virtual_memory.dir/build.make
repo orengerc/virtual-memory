@@ -66,30 +66,60 @@ include CMakeFiles/virtual_memory.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/virtual_memory.dir/flags.make
 
-CMakeFiles/virtual_memory.dir/main.cpp.o: CMakeFiles/virtual_memory.dir/flags.make
-CMakeFiles/virtual_memory.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/virtual_memory.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/virtual_memory.dir/main.cpp.o -c /cs/usr/oren_gerc/OS/virtual-memory/main.cpp
+CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o: CMakeFiles/virtual_memory.dir/flags.make
+CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o: ../SimpleTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o -c /cs/usr/oren_gerc/OS/virtual-memory/SimpleTest.cpp
 
-CMakeFiles/virtual_memory.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/virtual_memory.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/oren_gerc/OS/virtual-memory/main.cpp > CMakeFiles/virtual_memory.dir/main.cpp.i
+CMakeFiles/virtual_memory.dir/SimpleTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/virtual_memory.dir/SimpleTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/oren_gerc/OS/virtual-memory/SimpleTest.cpp > CMakeFiles/virtual_memory.dir/SimpleTest.cpp.i
 
-CMakeFiles/virtual_memory.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/virtual_memory.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/oren_gerc/OS/virtual-memory/main.cpp -o CMakeFiles/virtual_memory.dir/main.cpp.s
+CMakeFiles/virtual_memory.dir/SimpleTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/virtual_memory.dir/SimpleTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/oren_gerc/OS/virtual-memory/SimpleTest.cpp -o CMakeFiles/virtual_memory.dir/SimpleTest.cpp.s
+
+CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o: CMakeFiles/virtual_memory.dir/flags.make
+CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o: ../PhysicalMemory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o -c /cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.cpp
+
+CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.cpp > CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.i
+
+CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.cpp -o CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.s
+
+CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o: CMakeFiles/virtual_memory.dir/flags.make
+CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o: ../VirtualMemory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o -c /cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.cpp
+
+CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.cpp > CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.i
+
+CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.cpp -o CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.s
 
 # Object files for target virtual_memory
 virtual_memory_OBJECTS = \
-"CMakeFiles/virtual_memory.dir/main.cpp.o"
+"CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o" \
+"CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o" \
+"CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o"
 
 # External object files for target virtual_memory
 virtual_memory_EXTERNAL_OBJECTS =
 
-virtual_memory: CMakeFiles/virtual_memory.dir/main.cpp.o
+virtual_memory: CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o
+virtual_memory: CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o
+virtual_memory: CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o
 virtual_memory: CMakeFiles/virtual_memory.dir/build.make
 virtual_memory: CMakeFiles/virtual_memory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable virtual_memory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable virtual_memory"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/virtual_memory.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

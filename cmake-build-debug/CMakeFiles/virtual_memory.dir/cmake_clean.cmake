@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o"
-  "CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o"
   "CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o"
+  "CMakeFiles/virtual_memory.dir/YaaraTest.cpp.o"
   "virtual_memory"
   "virtual_memory.pdb"
 )

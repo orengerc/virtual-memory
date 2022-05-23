@@ -66,18 +66,18 @@ include CMakeFiles/virtual_memory.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/virtual_memory.dir/flags.make
 
-CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o: CMakeFiles/virtual_memory.dir/flags.make
-CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o: ../SimpleTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o -c /cs/usr/nitaiseri/Desktop/OS/virtual-memory/SimpleTest.cpp
+CMakeFiles/virtual_memory.dir/YaaraTest.cpp.o: CMakeFiles/virtual_memory.dir/flags.make
+CMakeFiles/virtual_memory.dir/YaaraTest.cpp.o: ../YaaraTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/virtual_memory.dir/YaaraTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/virtual_memory.dir/YaaraTest.cpp.o -c /cs/usr/nitaiseri/Desktop/OS/virtual-memory/YaaraTest.cpp
 
-CMakeFiles/virtual_memory.dir/SimpleTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/virtual_memory.dir/SimpleTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/nitaiseri/Desktop/OS/virtual-memory/SimpleTest.cpp > CMakeFiles/virtual_memory.dir/SimpleTest.cpp.i
+CMakeFiles/virtual_memory.dir/YaaraTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/virtual_memory.dir/YaaraTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/nitaiseri/Desktop/OS/virtual-memory/YaaraTest.cpp > CMakeFiles/virtual_memory.dir/YaaraTest.cpp.i
 
-CMakeFiles/virtual_memory.dir/SimpleTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/virtual_memory.dir/SimpleTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/nitaiseri/Desktop/OS/virtual-memory/SimpleTest.cpp -o CMakeFiles/virtual_memory.dir/SimpleTest.cpp.s
+CMakeFiles/virtual_memory.dir/YaaraTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/virtual_memory.dir/YaaraTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/nitaiseri/Desktop/OS/virtual-memory/YaaraTest.cpp -o CMakeFiles/virtual_memory.dir/YaaraTest.cpp.s
 
 CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o: CMakeFiles/virtual_memory.dir/flags.make
 CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o: ../PhysicalMemory.cpp
@@ -107,14 +107,14 @@ CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.s: cmake_force
 
 # Object files for target virtual_memory
 virtual_memory_OBJECTS = \
-"CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o" \
+"CMakeFiles/virtual_memory.dir/YaaraTest.cpp.o" \
 "CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o" \
 "CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o"
 
 # External object files for target virtual_memory
 virtual_memory_EXTERNAL_OBJECTS =
 
-virtual_memory: CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o
+virtual_memory: CMakeFiles/virtual_memory.dir/YaaraTest.cpp.o
 virtual_memory: CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o
 virtual_memory: CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o
 virtual_memory: CMakeFiles/virtual_memory.dir/build.make

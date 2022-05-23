@@ -153,30 +153,6 @@ PhysicalMemory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.s
 .PHONY : PhysicalMemory.cpp.s
 
-SimpleTest.o: SimpleTest.cpp.o
-.PHONY : SimpleTest.o
-
-# target to build an object file
-SimpleTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o
-.PHONY : SimpleTest.cpp.o
-
-SimpleTest.i: SimpleTest.cpp.i
-.PHONY : SimpleTest.i
-
-# target to preprocess a source file
-SimpleTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/SimpleTest.cpp.i
-.PHONY : SimpleTest.cpp.i
-
-SimpleTest.s: SimpleTest.cpp.s
-.PHONY : SimpleTest.s
-
-# target to generate assembly for a file
-SimpleTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/SimpleTest.cpp.s
-.PHONY : SimpleTest.cpp.s
-
 VirtualMemory.o: VirtualMemory.cpp.o
 .PHONY : VirtualMemory.o
 
@@ -201,6 +177,30 @@ VirtualMemory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.s
 .PHONY : VirtualMemory.cpp.s
 
+YaaraTest.o: YaaraTest.cpp.o
+.PHONY : YaaraTest.o
+
+# target to build an object file
+YaaraTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/YaaraTest.cpp.o
+.PHONY : YaaraTest.cpp.o
+
+YaaraTest.i: YaaraTest.cpp.i
+.PHONY : YaaraTest.i
+
+# target to preprocess a source file
+YaaraTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/YaaraTest.cpp.i
+.PHONY : YaaraTest.cpp.i
+
+YaaraTest.s: YaaraTest.cpp.s
+.PHONY : YaaraTest.s
+
+# target to generate assembly for a file
+YaaraTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/virtual_memory.dir/build.make CMakeFiles/virtual_memory.dir/YaaraTest.cpp.s
+.PHONY : YaaraTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,12 +213,12 @@ help:
 	@echo "... PhysicalMemory.o"
 	@echo "... PhysicalMemory.i"
 	@echo "... PhysicalMemory.s"
-	@echo "... SimpleTest.o"
-	@echo "... SimpleTest.i"
-	@echo "... SimpleTest.s"
 	@echo "... VirtualMemory.o"
 	@echo "... VirtualMemory.i"
 	@echo "... VirtualMemory.s"
+	@echo "... YaaraTest.o"
+	@echo "... YaaraTest.i"
+	@echo "... YaaraTest.s"
 .PHONY : help
 
 

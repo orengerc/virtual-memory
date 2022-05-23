@@ -23,8 +23,22 @@ void VMinitialize() {
     zeroFrame(0);
 }
 
+word_t searchTree() {
+    //search for empty frame throuth the tree
+    for (int i = 0; i <= PAGE_SIZE; ++i) {
+
+    }
+
+
+}
+
 word_t getNextFrame() {
-    //gets next frame
+    //search for empty frame
+    for (int i = 0; i <= PAGE_SIZE; ++i) {
+
+    }
+
+
 }
 
 struct cell {
@@ -53,7 +67,7 @@ uint64_t DFS(cell *entries, uint64_t index, uint64_t currentAddress) {
 
 cell getBits(uint64_t number, int i)
 {
-    return cell{((number << ((64 - VIRTUAL_ADDRESS_WIDTH) + (OFFSET_WIDTH*i))) >> 60)};
+    return cell{((number << ((64 - VIRTUAL_ADDRESS_WIDTH) + (OFFSET_WIDTH*i))) >> (64 - OFFSET_WIDTH))};
 }
 
 /**

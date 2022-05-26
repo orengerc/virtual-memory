@@ -6,8 +6,6 @@ CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o: \
  ../PhysicalMemory.h \
  ../YaaraConstants.h
 CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o: \
- ../BitwiseOps.h \
- ../MemoryConstants.h \
  ../PhysicalMemory.h \
  ../VirtualMemory.cpp \
  ../VirtualMemory.h \

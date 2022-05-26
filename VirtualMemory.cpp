@@ -1,17 +1,11 @@
-//
-// Created by oren_gerc on 19/05/2022.
-//
-
 #include "VirtualMemory.h"
 #include "PhysicalMemory.h"
-#include "BitwiseOps.h"
-#include <bitset>
-#include <iostream> //TODO REMOVE
-#include <string.h>
 
 #define SUCCESS 1
 #define FAILURE 0
 #define NOT_FOUND -1
+
+//TODO בדיקות קלט
 
 struct cell {
     unsigned long val: OFFSET_WIDTH;
@@ -114,11 +108,10 @@ bool checkEmptyFrame(uint64_t frame){
     return true;
 }
 
-
 /**
  *
  * */
-uint64_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64_t parentFrame, uint64_t depthIndex, uint64_t* maxFrame) {
+word_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64_t parentFrame, uint64_t depthIndex, uint64_t* maxFrame) {
 
     //branch is full
     if(depthIndex == TABLES_DEPTH){
@@ -144,7 +137,7 @@ uint64_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64
             }
 
             //recursive call
-            newFrame = (word_t)searchDFS(dontErase, newFrame, i, currentFrame, depthIndex++, maxFrame);
+            newFrame = (word_t)searchDFS(dontErase, newFrame, i, currentFrame, ++depthIndex, maxFrame);
             if(newFrame != NOT_FOUND){
                 return newFrame;
             }
@@ -161,7 +154,7 @@ uint64_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64
 uint64_t getNextFrame(uint64_t virtualAddress, uint64_t fatherFrame) {
 
     uint64_t maxFrame = 0;
-    auto emptyFrame = searchDFS(fatherFrame, 0, 0, 0, 0, &maxFrame);
+    word_t emptyFrame = searchDFS(fatherFrame, 0, 0, 0, 0, &maxFrame);
 
     //1st priority
     if(emptyFrame != NOT_FOUND){

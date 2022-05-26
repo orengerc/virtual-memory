@@ -6,30 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/cs/usr/oren_gerc/OS/virtual-memory/BitwiseOps.h
-MemoryConstants.h
-/cs/usr/oren_gerc/OS/virtual-memory/MemoryConstants.h
-
-/cs/usr/oren_gerc/OS/virtual-memory/MemoryConstants.h
-climits
--
-stdint.h
--
-
-/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.cpp
-PhysicalMemory.h
-/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.h
-vector
--
-unordered_map
--
-cassert
--
-cstdio
--
-iostream
--
-
 /cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.h
 YaaraConstants.h
 /cs/usr/oren_gerc/OS/virtual-memory/YaaraConstants.h
@@ -39,14 +15,6 @@ VirtualMemory.h
 /cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.h
 PhysicalMemory.h
 /cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.h
-BitwiseOps.h
-/cs/usr/oren_gerc/OS/virtual-memory/BitwiseOps.h
-bitset
--
-iostream
--
-string.h
--
 
 /cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.h
 YaaraConstants.h
@@ -56,15 +24,5 @@ YaaraConstants.h
 climits
 -
 stdint.h
--
-
-/cs/usr/oren_gerc/OS/virtual-memory/YaaraTest.cpp
-VirtualMemory.h
-/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.h
-PhysicalMemory.h
-/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.h
-cstdio
--
-cassert
 -
 

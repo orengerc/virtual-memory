@@ -75,6 +75,7 @@ uint64_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64
 
     //branch is full
     if(depthIndex == TABLES_DEPTH){
+        //update max cyclic distance
         return NOT_FOUND;
     }
 

@@ -33,18 +33,71 @@ void VMinitialize() {
     zeroFrame(0);
 }
 
-/**
- *
- * */
-uint64_t evictDFS(){
+uint64_t min(uint64_t a, uint64_t b){
+    return a < b ? a : b;
+}
 
+uint64_t abs(uint64_t a){
+    return a > 0 ? a : -a;
 }
 
 /**
  *
  * */
-uint64_t evictPage(){
+uint64_t calcCyclicDistance(uint64_t page_swapped_in, uint64_t p) {
+    return min(NUM_PAGES - abs(page_swapped_in - p), abs(page_swapped_in - p));
+}
 
+/**
+ *
+ * */
+void evictDFS(uint64_t& max_frame, word_t& max_offset, uint64_t& max_parent, uint64_t& max_page,
+                  uint64_t curr_frame, word_t curr_offset, uint64_t curr_parent, uint64_t curr_page,
+                  uint64_t& max_distance, uint64_t depth, uint64_t page_swapped_in){
+    if(depth == TABLES_DEPTH){
+        auto dist = calcCyclicDistance(page_swapped_in >> OFFSET_WIDTH, curr_page);
+        if(dist > max_distance){
+            max_distance = dist;
+            max_frame = curr_frame;
+            max_offset = curr_offset;
+            max_parent = curr_parent;
+            max_page = curr_page;
+        }
+    }
+
+    else{
+        word_t next_frame;
+        for(word_t i=0;i<PAGE_SIZE;++i){
+            PMread(curr_frame*PAGE_SIZE + i, &next_frame);
+            if(next_frame){
+                evictDFS(max_frame, max_offset, max_parent, max_page, next_frame, i, curr_frame, (curr_page << OFFSET_WIDTH) | i, max_distance, ++depth, page_swapped_in);
+            }
+        }
+    }
+}
+
+/**
+ *
+ * */
+void deleteChild(uint64_t parent, int offset){
+    PMwrite(parent*PAGE_SIZE + offset, 0);
+}
+
+/**
+ *
+ * */
+uint64_t evictPage(uint64_t virtualAddress){
+    //vars: frame, parent, page
+    uint64_t frame = 0; uint64_t parent = 0; uint64_t page = 0; word_t offset = 0; uint64_t max_dist = 0;
+    evictDFS(frame, offset, parent, page, 0, 0, 0, 0, max_dist, 0, virtualAddress);
+
+    //evict
+    PMevict(frame, page);
+
+    //erase link from parent
+    deleteChild(parent, offset);
+
+    return frame;
 }
 
 /**
@@ -61,12 +114,6 @@ bool checkEmptyFrame(uint64_t frame){
     return true;
 }
 
-/**
- *
- * */
-void deleteChild(uint64_t parent, int offset){
-    PMwrite(parent*PAGE_SIZE + offset, 0);
-}
 
 /**
  *
@@ -111,7 +158,7 @@ uint64_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64
 /**
  *
  * */
-uint64_t getNextFrame(uint64_t fatherFrame) {
+uint64_t getNextFrame(uint64_t virtualAddress, uint64_t fatherFrame) {
 
     uint64_t maxFrame = 0;
     auto emptyFrame = searchDFS(fatherFrame, 0, 0, 0, 0, &maxFrame);
@@ -127,7 +174,7 @@ uint64_t getNextFrame(uint64_t fatherFrame) {
     }
 
     //3rd priority
-    return evictPage();
+    return evictPage(virtualAddress);
 
 }
 
@@ -145,7 +192,7 @@ uint64_t searchForFrame(cell *entries, uint64_t index, uint64_t currentFrame, ui
     PMread(currentFrame * PAGE_SIZE + entries[index].val, &nextAddress);
 
     if (nextAddress == 0) {
-        auto nextFrame = (word_t)getNextFrame(currentFrame);
+        auto nextFrame = (word_t)getNextFrame(virtualAddress, currentFrame);
 
         if(index + 1 == TABLES_DEPTH){
             PMrestore(nextFrame, virtualAddress);

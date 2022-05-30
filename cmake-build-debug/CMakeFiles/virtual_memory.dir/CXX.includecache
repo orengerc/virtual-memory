@@ -6,21 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
 YaaraConstants.h
-/cs/usr/oren_gerc/OS/virtual-memory/YaaraConstants.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/YaaraConstants.h
 
-/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.cpp
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.cpp
 VirtualMemory.h
-/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.h
 PhysicalMemory.h
-/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
+iostream
+-
 
-/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.h
 YaaraConstants.h
-/cs/usr/oren_gerc/OS/virtual-memory/YaaraConstants.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/YaaraConstants.h
 
-/cs/usr/oren_gerc/OS/virtual-memory/YaaraConstants.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/YaaraConstants.h
 climits
 -
 stdint.h

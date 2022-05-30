@@ -1,6 +1,6 @@
 #include "VirtualMemory.h"
 #include "PhysicalMemory.h"
-
+#include <iostream>
 #define SUCCESS 1
 #define FAILURE 0
 #define NOT_FOUND -1
@@ -47,7 +47,7 @@ uint64_t calcCyclicDistance(uint64_t page_swapped_in, uint64_t p) {
  * */
 void evictDFS(uint64_t& max_frame, word_t& max_offset, uint64_t& max_parent, uint64_t& max_page,
                   uint64_t curr_frame, word_t curr_offset, uint64_t curr_parent, uint64_t curr_page,
-                  uint64_t& max_distance, uint64_t depth, uint64_t page_swapped_in){
+                  uint64_t& max_distance, uint64_t& depth, uint64_t page_swapped_in){
     if(depth == TABLES_DEPTH){
         auto dist = calcCyclicDistance(page_swapped_in >> OFFSET_WIDTH, curr_page);
         if(dist > max_distance){
@@ -68,6 +68,7 @@ void evictDFS(uint64_t& max_frame, word_t& max_offset, uint64_t& max_parent, uin
             }
         }
     }
+    depth--;
 }
 
 /**
@@ -83,7 +84,8 @@ void deleteChild(uint64_t parent, int offset){
 uint64_t evictPage(uint64_t virtualAddress){
     //vars: frame, parent, page
     uint64_t frame = 0; uint64_t parent = 0; uint64_t page = 0; word_t offset = 0; uint64_t max_dist = 0;
-    evictDFS(frame, offset, parent, page, 0, 0, 0, 0, max_dist, 0, virtualAddress);
+    uint64_t depth = 0;
+    evictDFS(frame, offset, parent, page, 0, 0, 0, 0, max_dist, depth, virtualAddress);
 
     //evict
     PMevict(frame, page);
@@ -111,24 +113,26 @@ bool checkEmptyFrame(uint64_t frame){
 /**
  *
  * */
-word_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64_t parentFrame, uint64_t depthIndex, uint64_t* maxFrame) {
+word_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64_t parentFrame, uint64_t& depthIndex, uint64_t* maxFrame) {
 
     //branch is full
     if(depthIndex == TABLES_DEPTH){
         //update max cyclic distance
+        depthIndex--;
         return NOT_FOUND;
     }
 
     //if currentFrame is an empty frame and different from father, return currentFrame
     if(checkEmptyFrame(currentFrame) && (currentFrame != dontErase)){
         deleteChild(parentFrame, offset);
+        depthIndex--;
         return currentFrame;
     }
 
 
     //iterate over entries inside the frame (DFS)
     word_t newFrame;
-    for (word_t i = 0; i <= PAGE_SIZE; ++i) {
+    for (word_t i = 0; i < PAGE_SIZE; ++i) {
         PMread(currentFrame * PAGE_SIZE + i, &newFrame);
         if(newFrame){
             //update max
@@ -139,13 +143,13 @@ word_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64_t
             //recursive call
             newFrame = (word_t)searchDFS(dontErase, newFrame, i, currentFrame, ++depthIndex, maxFrame);
             if(newFrame != NOT_FOUND){
+                depthIndex--;
                 return newFrame;
             }
         }
     }
-
+    depthIndex--;
     return NOT_FOUND;
-
 }
 
 /**
@@ -154,7 +158,9 @@ word_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64_t
 uint64_t getNextFrame(uint64_t virtualAddress, uint64_t fatherFrame) {
 
     uint64_t maxFrame = 0;
-    word_t emptyFrame = searchDFS(fatherFrame, 0, 0, 0, 0, &maxFrame);
+    uint64_t depth = 0;
+
+    word_t emptyFrame = searchDFS(fatherFrame, 0, 0, 0, depth, &maxFrame);
 
     //1st priority
     if(emptyFrame != NOT_FOUND){

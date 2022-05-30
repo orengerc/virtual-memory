@@ -1,4 +1,4 @@
-# Install script for directory: /cs/usr/oren_gerc/OS/virtual-memory
+# Install script for directory: /cs/usr/nitaiseri/Desktop/OS/virtual-memory
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -6,9 +6,43 @@
 
 #IncludeRegexTransform: 
 
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
+climits
+-
+stdint.h
+-
+
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.cpp
+PhysicalMemory.h
 /cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
-YaaraConstants.h
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/YaaraConstants.h
+vector
+-
+unordered_map
+-
+cassert
+-
+cstdio
+-
+iostream
+-
+
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
+MemoryConstants.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
+
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/SimpleTest.cpp
+VirtualMemory.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.h
+cstdio
+-
+cassert
+-
+iostream
+-
+vector
+-
+PhysicalMemory.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
 
 /cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.cpp
 VirtualMemory.h
@@ -19,12 +53,6 @@ iostream
 -
 
 /cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.h
-YaaraConstants.h
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/YaaraConstants.h
-
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/YaaraConstants.h
-climits
--
-stdint.h
--
+MemoryConstants.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
 

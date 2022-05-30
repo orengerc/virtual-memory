@@ -194,7 +194,7 @@ uint64_t searchForFrame(cell *entries, uint64_t index, uint64_t currentFrame, ui
         auto nextFrame = (word_t)getNextFrame(virtualAddress, currentFrame);
 
         if(index + 1 == TABLES_DEPTH){
-            PMrestore(nextFrame, virtualAddress);
+            PMrestore(nextFrame, CEIL(virtualAddress/PAGE_SIZE));
         }
         else{
             zeroFrame(nextFrame);

@@ -6,53 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
+/cs/usr/oren_gerc/OS/virtual-memory/MemoryConstants.h
 climits
 -
 stdint.h
 -
 
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.cpp
-PhysicalMemory.h
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
-vector
--
-unordered_map
--
-cassert
--
-cstdio
--
-iostream
--
-
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
+/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.h
 MemoryConstants.h
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
+/cs/usr/oren_gerc/OS/virtual-memory/MemoryConstants.h
 
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/SimpleTest.cpp
+/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.cpp
 VirtualMemory.h
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.h
-cstdio
--
-cassert
--
-iostream
--
-vector
--
+/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.h
 PhysicalMemory.h
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
+/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.h
 
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.cpp
-VirtualMemory.h
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.h
-PhysicalMemory.h
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
-iostream
--
-
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.h
+/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.h
 MemoryConstants.h
-/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
+/cs/usr/oren_gerc/OS/virtual-memory/MemoryConstants.h
 

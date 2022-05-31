@@ -5,7 +5,22 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="virtual_memory" targetName="virtual_memory" />
+      <config projectName="ex4" targetName="ex4Tests_NoEviction" />
+      <config projectName="ex4" targetName="SingleTableVirtualMemory" />
+      <config projectName="ex4" targetName="ex4Tests_NormalConstants" />
+      <config projectName="ex4" targetName="gmock_main" />
+      <config projectName="ex4" targetName="gtest" />
+      <config projectName="ex4" targetName="ex4Tests_UnreachableFrames" />
+      <config projectName="ex4" targetName="ex4Tests_OffsetDifferentThanIndex" />
+      <config projectName="ex4" targetName="NoEvictionVirtualMemory" />
+      <config projectName="ex4" targetName="ex4Tests_SmallConstants" />
+      <config projectName="ex4" targetName="OffsetDifferentThanIndexMemory" />
+      <config projectName="ex4" targetName="TestVirtualMemory" />
+      <config projectName="ex4" targetName="UnreachableFramesVirtualMemory" />
+      <config projectName="ex4" targetName="VirtualMemory" />
+      <config projectName="ex4" targetName="gmock" />
+      <config projectName="ex4" targetName="ex4Tests_SingleTable" />
+      <config projectName="ex4" targetName="gtest_main" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -15,26 +30,149 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46c4295b-fbf2-41f2-8e8e-42990d022677" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ex4.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NoEviction.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NoEviction.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NoEviction.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NoEviction.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NoEviction.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NoEviction.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NoEviction.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NormalConstants.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NormalConstants.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NormalConstants.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NormalConstants.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NormalConstants.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NormalConstants.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_NormalConstants.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SingleTable.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SingleTable.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SingleTable.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SingleTable.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SingleTable.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SingleTable.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SingleTable.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SmallConstants.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SmallConstants.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SmallConstants.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SmallConstants.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SmallConstants.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SmallConstants.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_SmallConstants.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_UnreachableFrames.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_UnreachableFrames.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_UnreachableFrames.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_UnreachableFrames.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_UnreachableFrames.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_UnreachableFrames.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/ex4Tests_UnreachableFrames.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/ex4_testers.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock.dir/cmake_clean_target.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/cmake_clean_target.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googlemock/gmock.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest-distribution.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets-debug.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest.dir/cmake_clean_target.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/cmake_clean_target.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/CTestTestfile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/generated/GTestConfig.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/generated/GTestConfigVersion.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/generated/gmock.pc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/generated/gmock_main.pc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/generated/gtest.pc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/generated/gtest_main.pc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-build/googletest/gtest.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-download/CMakeFiles/googletest-complete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-download/googletest-prefix/src/googletest-stamp/googletest-done" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-download/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemoryConstants.h" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryConstants.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhysicalMemory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PhysicalMemory.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhysicalMemory.h" beforeDir="false" afterPath="$PROJECT_DIR$/PhysicalMemory.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleTest.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VirtualMemory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualMemory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VirtualMemory.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualMemory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/virtual_memory" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/virtual_memory" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/virtual_memory.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/virtual_memory.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CMakeLists.txt.in" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CMakeLists.txt.in" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +195,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="29Mu55Co1kiuNlEMMFPrV4Jafym" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -73,19 +211,106 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Google Test.ex4Tests_UnreachableFrames">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="virtual_memory" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="virtual_memory" TARGET_NAME="virtual_memory" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="virtual_memory" RUN_TARGET_NAME="virtual_memory">
+    <configuration name="ex4Tests_NoEviction" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="ex4Tests_NoEviction" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex4" RUN_TARGET_NAME="ex4Tests_NoEviction" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex4Tests_NormalConstants" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="ex4Tests_NormalConstants" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex4" RUN_TARGET_NAME="ex4Tests_NormalConstants" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex4Tests_OffsetDifferentThanIndex" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="ex4Tests_OffsetDifferentThanIndex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex4" RUN_TARGET_NAME="ex4Tests_OffsetDifferentThanIndex" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex4Tests_SingleTable" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="ex4Tests_SingleTable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex4" RUN_TARGET_NAME="ex4Tests_SingleTable" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex4Tests_SmallConstants" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="ex4Tests_SmallConstants" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex4" RUN_TARGET_NAME="ex4Tests_SmallConstants" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex4Tests_UnreachableFrames" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="ex4Tests_UnreachableFrames" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex4" RUN_TARGET_NAME="ex4Tests_UnreachableFrames" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoEvictionVirtualMemory" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="NoEvictionVirtualMemory" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OffsetDifferentThanIndexMemory" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="OffsetDifferentThanIndexMemory" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleTableVirtualMemory" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="SingleTableVirtualMemory" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVirtualMemory" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="TestVirtualMemory" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnreachableFramesVirtualMemory" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="UnreachableFramesVirtualMemory" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VirtualMemory" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="VirtualMemory" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -95,6 +320,24 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="CMake Application.NoEvictionVirtualMemory" />
+      <item itemvalue="CMake Application.OffsetDifferentThanIndexMemory" />
+      <item itemvalue="CMake Application.SingleTableVirtualMemory" />
+      <item itemvalue="CMake Application.TestVirtualMemory" />
+      <item itemvalue="CMake Application.UnreachableFramesVirtualMemory" />
+      <item itemvalue="CMake Application.VirtualMemory" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="Google Test.ex4Tests_NoEviction" />
+      <item itemvalue="Google Test.ex4Tests_NormalConstants" />
+      <item itemvalue="Google Test.ex4Tests_OffsetDifferentThanIndex" />
+      <item itemvalue="Google Test.ex4Tests_SingleTable" />
+      <item itemvalue="Google Test.ex4Tests_SmallConstants" />
+      <item itemvalue="Google Test.ex4Tests_UnreachableFrames" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -112,6 +355,8 @@
       <workItem from="1653288233067" duration="8638000" />
       <workItem from="1653542645332" duration="1862000" />
       <workItem from="1653891816077" duration="601000" />
+      <workItem from="1653996012315" duration="2915000" />
+      <workItem from="1653999414643" duration="201000" />
     </task>
     <task id="LOCAL-00001" summary="add main">
       <created>1652936192035</created>

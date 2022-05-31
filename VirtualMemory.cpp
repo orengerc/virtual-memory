@@ -1,6 +1,6 @@
 #include "VirtualMemory.h"
 #include "PhysicalMemory.h"
-#include <iostream>
+
 #define SUCCESS 1
 #define FAILURE 0
 #define NOT_FOUND -1
@@ -12,7 +12,7 @@ struct cell {
 };
 
 /**
- *
+ * Sets all entries in the given frame to zero
  * */
 void zeroFrame(uint64_t frame_index) {
     for (uint64_t i = 0; i < PAGE_SIZE; ++i) {
@@ -27,29 +27,35 @@ void VMinitialize() {
     zeroFrame(0);
 }
 
+/**
+ * Returns minimum of 2 integers
+ * */
 uint64_t min(uint64_t a, uint64_t b){
     return a < b ? a : b;
 }
 
+/**
+ * Returns absolute value of integer
+ * */
 uint64_t abs(uint64_t a){
     return a > 0 ? a : -a;
 }
 
 /**
- *
+ * Calculates cyclic distance
  * */
-uint64_t calcCyclicDistance(uint64_t page_swapped_in, uint64_t p) {
+uint64_t calculateCyclicDistance(uint64_t page_swapped_in, uint64_t p) {
     return min(NUM_PAGES - abs(page_swapped_in - p), abs(page_swapped_in - p));
 }
 
 /**
- *
+ * Runs DFS in the tree, looking for the furthest leaf (cyclic-distance wise).
  * */
 void evictDFS(uint64_t& max_frame, word_t& max_offset, uint64_t& max_parent, uint64_t& max_page,
                   uint64_t curr_frame, word_t curr_offset, uint64_t curr_parent, uint64_t curr_page,
                   uint64_t& max_distance, uint64_t& depth, uint64_t page_swapped_in){
     if(depth == TABLES_DEPTH){
-        auto dist = calcCyclicDistance(page_swapped_in >> OFFSET_WIDTH, curr_page);
+        auto dist = calculateCyclicDistance(page_swapped_in >> OFFSET_WIDTH, curr_page);
         if(dist > max_distance){
             max_distance = dist;
             max_frame = curr_frame;
@@ -72,14 +78,14 @@ void evictDFS(uint64_t& max_frame, word_t& max_offset, uint64_t& max_parent, uin
 }
 
 /**
- *
+ * Deletes association to a child (offset is the child)
  * */
 void deleteChild(uint64_t parent, int offset){
     PMwrite(parent*PAGE_SIZE + offset, 0);
 }
 
 /**
- *
+ * Evicts a page from the memory, returns the newly available frame
  * */
 uint64_t evictPage(uint64_t virtualAddress){
     //vars: frame, parent, page
@@ -97,7 +103,7 @@ uint64_t evictPage(uint64_t virtualAddress){
 }
 
 /**
- *
+ * Checks if a given frame is empty.
  * */
 bool checkEmptyFrame(uint64_t frame){
     word_t res=0;
@@ -111,7 +117,8 @@ bool checkEmptyFrame(uint64_t frame){
 }
 
 /**
- *
+ * Searches the tree for an empty frame, using DFS.
+ * IN the process, tracks the maximal frame used.
  * */
 word_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64_t parentFrame, uint64_t& depthIndex, uint64_t* maxFrame) {
 
@@ -153,7 +160,7 @@ word_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64_t
 }
 
 /**
- *
+ * Searches for a proper frame for the data, according to the given priorities.
  * */
 uint64_t getNextFrame(uint64_t virtualAddress, uint64_t fatherFrame) {
 
@@ -178,7 +185,7 @@ uint64_t getNextFrame(uint64_t virtualAddress, uint64_t fatherFrame) {
 }
 
 /**
- *
+ * Traverses the memory-tree, returns the frame number after everything is set and clear.
  * */
 uint64_t searchForFrame(cell *entries, uint64_t index, uint64_t currentFrame, uint64_t virtualAddress) {
 
@@ -208,7 +215,7 @@ uint64_t searchForFrame(cell *entries, uint64_t index, uint64_t currentFrame, ui
 }
 
 /**
- *
+ * Returns the i'th OFFSET_WIDTH bits of the given number
  * */
 cell getBits(uint64_t number, int i)
 {
@@ -241,8 +248,12 @@ uint64_t getPhysicalAddress(uint64_t virtualAddress) {
  * address for any reason)
  * */
 int VMread(uint64_t virtualAddress, word_t *value) {
+    if(virtualAddress >= VIRTUAL_MEMORY_SIZE){
+        return FAILURE;
+    }
+
     uint64_t physicalAddress = getPhysicalAddress(virtualAddress);
-    if(physicalAddress == -1){
+    if(physicalAddress == NOT_FOUND){
         return FAILURE;
     }
     PMread(physicalAddress, value);
@@ -257,8 +268,12 @@ int VMread(uint64_t virtualAddress, word_t *value) {
  * address for any reason)
  * */
 int VMwrite(uint64_t virtualAddress, word_t value) {
+    if(virtualAddress >= VIRTUAL_MEMORY_SIZE){
+        return FAILURE;
+    }
+
     uint64_t physicalAddress = getPhysicalAddress(virtualAddress);
-    if(physicalAddress == -1){
+    if(physicalAddress == NOT_FOUND){
         return FAILURE;
     }
     PMwrite(physicalAddress, value);

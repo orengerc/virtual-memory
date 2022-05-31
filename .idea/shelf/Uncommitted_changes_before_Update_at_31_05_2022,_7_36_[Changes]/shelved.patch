@@ -1,0 +1,98 @@
+Index: cmake-build-debug/Testing/Temporary/LastTest.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Start testing: May 26 13:50 IDT\n----------------------------------------------------------\nEnd testing: May 26 13:50 IDT\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/Testing/Temporary/LastTest.log b/cmake-build-debug/Testing/Temporary/LastTest.log
+--- a/cmake-build-debug/Testing/Temporary/LastTest.log	(revision 4bec70a7a1c9e651a8ae16fe94ffa43031790432)
++++ b/cmake-build-debug/Testing/Temporary/LastTest.log	(date 1653971614035)
+@@ -1,3 +1,3 @@
+-Start testing: May 26 13:50 IDT
++Start testing: May 31 07:33 IDT
+ ----------------------------------------------------------
+-End testing: May 26 13:50 IDT
++End testing: May 31 07:33 IDT
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"CMakeRunConfigurationManager\" shouldGenerate=\"true\" shouldDeleteObsolete=\"true\">\n    <generated>\n      <config projectName=\"virtual_memory\" targetName=\"virtual_memory\" />\n    </generated>\n  </component>\n  <component name=\"CMakeSettings\" AUTO_RELOAD=\"true\">\n    <configurations>\n      <configuration PROFILE_NAME=\"Debug\" ENABLED=\"true\" CONFIG_NAME=\"Debug\" />\n    </configurations>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"46c4295b-fbf2-41f2-8e8e-42990d022677\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/BitwiseOps.h\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/CMakeLists.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CMakeLists.txt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/VirtualMemory.cpp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/VirtualMemory.cpp\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/CXX.includecache\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/CXX.includecache\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.internal\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.internal\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.make\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.make\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug/virtual_memory\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug/virtual_memory\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/cmake-build-debug/virtual_memory.cbp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/cmake-build-debug/virtual_memory.cbp\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ClangdSettings\">\n    <option name=\"formatViaClangd\" value=\"false\" />\n  </component>\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"CMakeBuildProfile:Debug\" />\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitSEFilterConfiguration\">\n    <file-type-list>\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\n      <filtered-out-file-type name=\"TAG\" />\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\n    </file-type-list>\n  </component>\n  <component name=\"ProjectId\" id=\"29Mu55Co1kiuNlEMMFPrV4Jafym\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.cidr.known.project.marker\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"cf.first.check.clang-format\" value=\"false\" />\n    <property name=\"cidr.known.project.marker\" value=\"true\" />\n    <property name=\"cmake.loaded.for.project\" value=\"true\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"restartRequiresConfirmation\" value=\"false\" />\n  </component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"CLionExternalRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\">\n      <method v=\"2\">\n        <option name=\"CLION.EXTERNAL.BUILD\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"virtual_memory\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"virtual_memory\" TARGET_NAME=\"virtual_memory\" CONFIG_NAME=\"Debug\" RUN_TARGET_PROJECT_NAME=\"virtual_memory\" RUN_TARGET_NAME=\"virtual_memory\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"GradleAppRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" PASS_PARENT_ENVS_2=\"true\">\n      <method v=\"2\">\n        <option name=\"com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"46c4295b-fbf2-41f2-8e8e-42990d022677\" name=\"Changes\" comment=\"\" />\n      <created>1652935088191</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1652935088191</updated>\n      <workItem from=\"1652935089905\" duration=\"1638000\" />\n      <workItem from=\"1652941046563\" duration=\"11859000\" />\n      <workItem from=\"1652954730989\" duration=\"224000\" />\n      <workItem from=\"1652955003359\" duration=\"115000\" />\n      <workItem from=\"1652955132326\" duration=\"4569000\" />\n      <workItem from=\"1653288233067\" duration=\"8638000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"add main\">\n      <created>1652936192035</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1652936192035</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"add all files\">\n      <created>1652941278109</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1652941278109</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"add all files\">\n      <created>1652941421278</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1652941421278</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"fix addresses split\">\n      <created>1652962376953</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1652962376953</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"added stuff\">\n      <created>1653551771752</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1653551771752</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"need to add evict, then test\">\n      <created>1653552992453</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1653552992453</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"ready to test\">\n      <created>1653559122707</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1653559122707</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\n    <MESSAGE value=\"add main\" />\n    <MESSAGE value=\"add all files\" />\n    <MESSAGE value=\"fix addresses split\" />\n    <MESSAGE value=\"added stuff\" />\n    <MESSAGE value=\"need to add evict, then test\" />\n    <MESSAGE value=\"ready to test\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ready to test\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"com.jetbrains.cidr.execution.debugger.OCBreakpointType\">\n          <url>file://$PROJECT_DIR$/YaaraTest.cpp</url>\n          <line>82</line>\n          <option name=\"timeStamp\" value=\"29\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"com.jetbrains.cidr.execution.debugger.OCBreakpointType\">\n          <url>file://$PROJECT_DIR$/VirtualMemory.cpp</url>\n          <line>200</line>\n          <option name=\"timeStamp\" value=\"42\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n    <watches-manager>\n      <configuration name=\"CMakeRunConfiguration\">\n        <watch expression=\"RAM\" language=\"ObjectiveC\" />\n      </configuration>\n    </watches-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4bec70a7a1c9e651a8ae16fe94ffa43031790432)
++++ b/.idea/workspace.xml	(date 1653971767949)
+@@ -16,17 +16,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="46c4295b-fbf2-41f2-8e8e-42990d022677" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/BitwiseOps.h" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/VirtualMemory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualMemory.cpp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/CXX.includecache" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.internal" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.make" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/virtual_memory" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/virtual_memory" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/virtual_memory.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/virtual_memory.cbp" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -36,7 +25,6 @@
+   <component name="ClangdSettings">
+     <option name="formatViaClangd" value="false" />
+   </component>
+-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+@@ -72,9 +60,9 @@
+     <property name="restartRequiresConfirmation" value="false" />
+   </component>
+   <component name="RunManager">
+-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
++    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+       <method v="2">
+-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
++        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+       </method>
+     </configuration>
+     <configuration name="virtual_memory" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="virtual_memory" TARGET_NAME="virtual_memory" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="virtual_memory" RUN_TARGET_NAME="virtual_memory">
+@@ -102,6 +90,7 @@
+       <workItem from="1652955003359" duration="115000" />
+       <workItem from="1652955132326" duration="4569000" />
+       <workItem from="1653288233067" duration="8638000" />
++      <workItem from="1653971611948" duration="1000" />
+     </task>
+     <task id="LOCAL-00001" summary="add main">
+       <created>1652936192035</created>
+@@ -152,7 +141,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1653559122707</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="fix some bug&#10;next bug when continue the recursion in searchDfs the depth keep grow and not get smaller when go back">
++      <created>1653562478904</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1653562478904</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -166,7 +162,8 @@
+     <MESSAGE value="added stuff" />
+     <MESSAGE value="need to add evict, then test" />
+     <MESSAGE value="ready to test" />
+-    <option name="LAST_COMMIT_MESSAGE" value="ready to test" />
++    <MESSAGE value="fix some bug&#10;next bug when continue the recursion in searchDfs the depth keep grow and not get smaller when go back" />
++    <option name="LAST_COMMIT_MESSAGE" value="fix some bug&#10;next bug when continue the recursion in searchDfs the depth keep grow and not get smaller when go back" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>

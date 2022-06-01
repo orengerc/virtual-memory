@@ -119,7 +119,7 @@ bool checkEmptyFrame(uint64_t frame){
  * Searches the tree for an empty frame, using DFS.
  * IN the process, tracks the maximal frame used.
  * */
-word_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64_t parentFrame, uint64_t& depthIndex, uint64_t* maxFrame) {
+word_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64_t parentFrame, uint64_t& depthIndex, word_t* maxFrame) {
 
     //branch is full
     if(depthIndex == TABLES_DEPTH){
@@ -163,7 +163,7 @@ word_t searchDFS(uint64_t dontErase, uint64_t currentFrame, int offset, uint64_t
  * */
 uint64_t getNextFrame(uint64_t virtualAddress, uint64_t fatherFrame) {
 
-    uint64_t maxFrame = 0;
+    word_t maxFrame = 0;
     uint64_t depth = 0;
 
     word_t emptyFrame = searchDFS(fatherFrame, 0, 0, 0, depth, &maxFrame);
@@ -225,7 +225,10 @@ cell getBits(uint64_t number, int i)
         if(i!=0){
             return cell{((number << ((64 - VIRTUAL_ADDRESS_WIDTH) + (OFFSET_WIDTH*(i-1)+(VIRTUAL_ADDRESS_WIDTH%OFFSET_WIDTH)))) >> (64 - OFFSET_WIDTH))};
         }
-        return cell{((number << ((64 - VIRTUAL_ADDRESS_WIDTH))) >> (64 - (VIRTUAL_ADDRESS_WIDTH%OFFSET_WIDTH)))};
+        uint64_t shiftRight = VIRTUAL_ADDRESS_WIDTH%OFFSET_WIDTH;
+        if(shiftRight <= 64){
+            return cell{((number << ((64 - VIRTUAL_ADDRESS_WIDTH))) >> (64 - shiftRight))};
+        }
     }
 }
 
@@ -261,9 +264,6 @@ int VMread(uint64_t virtualAddress, word_t *value) {
     }
 
     uint64_t physicalAddress = getPhysicalAddress(virtualAddress);
-    if(physicalAddress == NOT_FOUND){
-        return FAILURE;
-    }
     PMread(physicalAddress, value);
     return SUCCESS;
 }
@@ -281,9 +281,6 @@ int VMwrite(uint64_t virtualAddress, word_t value) {
     }
 
     uint64_t physicalAddress = getPhysicalAddress(virtualAddress);
-    if(physicalAddress == NOT_FOUND){
-        return FAILURE;
-    }
     PMwrite(physicalAddress, value);
     return SUCCESS;
 }

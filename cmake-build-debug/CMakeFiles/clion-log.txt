@@ -10,30 +10,15 @@ CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-download
-[ 11%] Creating directories for 'googletest'
-[ 22%] Performing download step (git clone) for 'googletest'
-Cloning into 'googletest-src'...
-Already on 'main'
-Your branch is up to date with 'origin/main'.
-[ 33%] Performing update step for 'googletest'
+[ 11%] Performing update step for 'googletest'
 HEAD is now at 548b13dc Fix internal files
-[ 44%] No patch step for 'googletest'
-[ 55%] No configure step for 'googletest'
-[ 66%] No build step for 'googletest'
-[ 77%] No install step for 'googletest'
-[ 88%] No test step for 'googletest'
-[100%] Completed 'googletest'
+[ 22%] No patch step for 'googletest'
+[ 33%] No configure step for 'googletest'
+[ 44%] No build step for 'googletest'
+[ 55%] No install step for 'googletest'
+[ 66%] No test step for 'googletest'
+[ 77%] Completed 'googletest'
 [100%] Built target googletest
--- Found Python: /usr/bin/python3.7 (found version "3.7.3") found components: Interpreter 
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
--- Looking for pthread_create in pthreads
--- Looking for pthread_create in pthreads - not found
--- Looking for pthread_create in pthread
--- Looking for pthread_create in pthread - found
--- Found Threads: TRUE  
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug

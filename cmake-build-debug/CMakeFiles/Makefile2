@@ -351,9 +351,9 @@ tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/clean:
 # Target rules for target tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir
 
 # All Build rule for target.
-tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/all: CMakeFiles/OffsetDifferentThanIndexMemory.dir/all
 tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/all: tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/all: tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/all
+tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/all: CMakeFiles/OffsetDifferentThanIndexMemory.dir/all
 	$(MAKE) $(MAKESILENT) -f tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/build.make tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/build.make tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target ex4Tests_OffsetDifferentThanIndex"
@@ -379,9 +379,9 @@ tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/clean:
 # Target rules for target tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir
 
 # All Build rule for target.
-tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/all: CMakeFiles/VirtualMemory.dir/all
 tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/all: tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/all: tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/all
+tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/all: CMakeFiles/VirtualMemory.dir/all
 	$(MAKE) $(MAKESILENT) -f tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/build.make tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/build.make tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target ex4Tests_NormalConstants"
@@ -435,9 +435,9 @@ tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/clean:
 # Target rules for target tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir
 
 # All Build rule for target.
-tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/all: CMakeFiles/NoEvictionVirtualMemory.dir/all
 tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/all: tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/all: tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/all
+tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/all: CMakeFiles/NoEvictionVirtualMemory.dir/all
 	$(MAKE) $(MAKESILENT) -f tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/build.make tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/build.make tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target ex4Tests_NoEviction"

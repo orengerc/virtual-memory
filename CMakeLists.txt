@@ -3,9 +3,9 @@
 #
 #set(CMAKE_CXX_STANDARD 11)
 #
-#add_executable(virtual_memory SimpleTest.cpp PhysicalMemory.cpp VirtualMemory.cpp VirtualMemory.cpp)
-
-
+#add_executable(virtual_memory YaaraTest.cpp PhysicalMemory.cpp VirtualMemory.cpp VirtualMemory.cpp)
+#
+#
 cmake_minimum_required(VERSION 3.1)
 
 
@@ -67,4 +67,3 @@ createVMTarget(NoEvictionVirtualMemory NO_EVICTION_CONSTANTS)
 
 # Add tests
 add_subdirectory(tests_os_ex4)
-

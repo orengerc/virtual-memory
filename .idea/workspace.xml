@@ -23,264 +23,90 @@
       <config projectName="ex4" targetName="gtest_main" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de99923-f602-4917-b87a-7b36f4263fb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/kb_tests.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/kb_tests.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/kb_tests.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/kb_tests.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/kb_tests.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/kb_tests.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_NoEviction" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_NormalConstants" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_OffsetDifferentThanIndex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_SingleTable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_SmallConstants" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_UnreachableFrames" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4_testers.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/CTestTestfile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock_main.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock_main.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock_main.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/CTestTestfile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/gmock.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest-distribution.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets-debug.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/CTestTestfile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/generated/GTestConfig.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/generated/GTestConfigVersion.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/generated/gmock.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/generated/gmock_main.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/generated/gtest.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/generated/gtest_main.pc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-build/googletest/gtest.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/3.20.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/googletest-complete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/googletest.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/googletest.dir/Labels.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/googletest.dir/Labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/googletest.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/googletest.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/googletest.dir/compiler_depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/googletest.dir/compiler_depend.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/googletest.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-done" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-gitclone-lastrun.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-gitinfo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/tmp/googletest-cfgcmd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/tmp/googletest-cfgcmd.txt.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/tmp/googletest-gitclone.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/googletest-prefix/tmp/googletest-gitupdate.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-src" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_05_2022,_8_25_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_05_2022__8_25__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_05_2022,_7_36_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex4.tar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests_os_ex4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleTest.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VirtualMemory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualMemory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VirtualMemory.h" beforeDir="false" afterPath="$PROJECT_DIR$/VirtualMemory.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/PhysicalMemory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/PhysicalMemory.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/VirtualMemory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/VirtualMemory.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NoEvictionVirtualMemory.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/PhysicalMemory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/PhysicalMemory.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/VirtualMemory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/VirtualMemory.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SingleTableVirtualMemory.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/PhysicalMemory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/PhysicalMemory.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/VirtualMemory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/VirtualMemory.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/PhysicalMemory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/PhysicalMemory.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/VirtualMemory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/VirtualMemory.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UnreachableFramesVirtualMemory.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/PhysicalMemory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/PhysicalMemory.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/VirtualMemory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/VirtualMemory.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualMemory.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/PhysicalMemory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/SimpleTest.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/VirtualMemory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/virtual_memory.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ex4.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ex4.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest_main.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest_main.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libNoEvictionVirtualMemory.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libNoEvictionVirtualMemory.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libOffsetDifferentThanIndexMemory.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libOffsetDifferentThanIndexMemory.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libSingleTableVirtualMemory.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libSingleTableVirtualMemory.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libTestVirtualMemory.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libTestVirtualMemory.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libUnreachableFramesVirtualMemory.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libUnreachableFramesVirtualMemory.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libVirtualMemory.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libVirtualMemory.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/kb_tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/kb_tests.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/kb_tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/kb_tests.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/kb_tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/kb_tests.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/kb_tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/kb_tests.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/kb_tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/kb_tests.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_NoEviction" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_NoEviction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_NormalConstants" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_NormalConstants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_OffsetDifferentThanIndex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_OffsetDifferentThanIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_SingleTable" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_SingleTable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_SmallConstants" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_SmallConstants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_UnreachableFrames" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/ex4Tests_UnreachableFrames" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tests_os_ex4/googletest-download/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/virtual_memory" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/virtual_memory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/virtual_memory.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/virtual_memory.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests_os_ex4/CMakeLists.txt.in" beforeDir="false" afterPath="$PROJECT_DIR$/tests_os_ex4/CMakeLists.txt.in" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -317,13 +143,14 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.ex4Tests_SingleTable">
+  <component name="RunManager" selected="Google Test.ex4Tests_UnreachableFrames">
     <configuration name="ex4Tests_NoEviction" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex4" TARGET_NAME="ex4Tests_NoEviction" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex4" RUN_TARGET_NAME="ex4Tests_NoEviction" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -448,8 +275,16 @@
       <option name="presentableId" value="Default" />
       <updated>1654060464207</updated>
       <workItem from="1654060465609" duration="2324000" />
-      <workItem from="1654065926975" duration="557000" />
+      <workItem from="1654065926975" duration="3182000" />
     </task>
+    <task id="LOCAL-00001" summary="past all tests">
+      <created>1654066740480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654066740480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,5 +292,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="past all tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="past all tests" />
   </component>
 </project>

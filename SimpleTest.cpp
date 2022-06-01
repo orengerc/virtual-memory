@@ -1,4 +1,5 @@
 #include "VirtualMemory.h"
+#include "MemoryConstants.h"
 
 #include <cstdio>
 #include <cassert>

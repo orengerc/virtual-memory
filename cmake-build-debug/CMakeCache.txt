@@ -357,6 +357,12 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
+//Value Computed by CMake
+virtual_memory_BINARY_DIR:STATIC=/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug
+
+//Value Computed by CMake
+virtual_memory_SOURCE_DIR:STATIC=/cs/usr/nitaiseri/Desktop/OS/virtual-memory
+
 
 ########################
 # INTERNAL cache entries

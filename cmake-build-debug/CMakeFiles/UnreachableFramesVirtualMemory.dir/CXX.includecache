@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/cs/usr/oren_gerc/OS/virtual-memory/MemoryConstants.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
 climits
 -
 stdint.h
 -
 
-/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
 MemoryConstants.h
-/cs/usr/oren_gerc/OS/virtual-memory/MemoryConstants.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
 random
 -
 memory
@@ -22,13 +22,13 @@ memory
 sstream
 -
 
-/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.cpp
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.cpp
 VirtualMemory.h
-/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.h
 PhysicalMemory.h
-/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h
 
-/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.h
 MemoryConstants.h
-/cs/usr/oren_gerc/OS/virtual-memory/MemoryConstants.h
+/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h
 

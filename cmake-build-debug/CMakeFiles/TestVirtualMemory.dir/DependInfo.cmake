@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.cpp" "/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/PhysicalMemory.cpp.o"
-  "/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.cpp" "/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/VirtualMemory.cpp.o"
+  "/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.cpp" "/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/PhysicalMemory.cpp.o"
+  "/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.cpp" "/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles/TestVirtualMemory.dir/VirtualMemory.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

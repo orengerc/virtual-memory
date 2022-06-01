@@ -53,10 +53,10 @@ RM = /usr/local/APP/jetbrains/clion/2021.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cs/usr/oren_gerc/OS/virtual-memory
+CMAKE_SOURCE_DIR = /cs/usr/nitaiseri/Desktop/OS/virtual-memory
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug
+CMAKE_BINARY_DIR = /cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OffsetDifferentThanIndexMemory.dir/depend.make
@@ -68,29 +68,29 @@ include CMakeFiles/OffsetDifferentThanIndexMemory.dir/flags.make
 
 CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.o: CMakeFiles/OffsetDifferentThanIndexMemory.dir/flags.make
 CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.o: ../VirtualMemory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.o -c /cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.o -c /cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.cpp
 
 CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.cpp > CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.cpp > CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.i
 
 CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.cpp -o CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.cpp -o CMakeFiles/OffsetDifferentThanIndexMemory.dir/VirtualMemory.cpp.s
 
 CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.o: CMakeFiles/OffsetDifferentThanIndexMemory.dir/flags.make
 CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.o: ../PhysicalMemory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.o -c /cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.o -c /cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.cpp
 
 CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.cpp > CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.cpp > CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.i
 
 CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.cpp -o CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.cpp -o CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.s
 
 # Object files for target OffsetDifferentThanIndexMemory
 OffsetDifferentThanIndexMemory_OBJECTS = \
@@ -104,7 +104,7 @@ libOffsetDifferentThanIndexMemory.a: CMakeFiles/OffsetDifferentThanIndexMemory.d
 libOffsetDifferentThanIndexMemory.a: CMakeFiles/OffsetDifferentThanIndexMemory.dir/PhysicalMemory.cpp.o
 libOffsetDifferentThanIndexMemory.a: CMakeFiles/OffsetDifferentThanIndexMemory.dir/build.make
 libOffsetDifferentThanIndexMemory.a: CMakeFiles/OffsetDifferentThanIndexMemory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libOffsetDifferentThanIndexMemory.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libOffsetDifferentThanIndexMemory.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/OffsetDifferentThanIndexMemory.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OffsetDifferentThanIndexMemory.dir/link.txt --verbose=$(VERBOSE)
 
@@ -117,6 +117,6 @@ CMakeFiles/OffsetDifferentThanIndexMemory.dir/clean:
 .PHONY : CMakeFiles/OffsetDifferentThanIndexMemory.dir/clean
 
 CMakeFiles/OffsetDifferentThanIndexMemory.dir/depend:
-	cd /cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cs/usr/oren_gerc/OS/virtual-memory /cs/usr/oren_gerc/OS/virtual-memory /cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug /cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug /cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cs/usr/nitaiseri/Desktop/OS/virtual-memory /cs/usr/nitaiseri/Desktop/OS/virtual-memory /cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug /cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug /cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles/OffsetDifferentThanIndexMemory.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OffsetDifferentThanIndexMemory.dir/depend
 

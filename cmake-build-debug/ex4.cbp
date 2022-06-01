@@ -5,31 +5,31 @@
 		<Option title="ex4"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\tests\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\tests\;CMake Files\cmake-build-debug\tests\googletest-src\;CMake Files\cmake-build-debug\tests\googletest-src\googlemock\;CMake Files\cmake-build-debug\tests\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\tests\googletest-src\googletest\;CMake Files\cmake-build-debug\tests\googletest-src\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tests_os_ex4\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\tests_os_ex4\;CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\;CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\googlemock\;CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\googletest\;CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SingleTableVirtualMemory">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/libSingleTableVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/libSingleTableVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -45,15 +45,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 SingleTableVirtualMemory"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 SingleTableVirtualMemory"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SingleTableVirtualMemory/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/libSingleTableVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/libSingleTableVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -69,15 +69,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 SingleTableVirtualMemory/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 SingleTableVirtualMemory/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TestVirtualMemory">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/libTestVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/libTestVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -93,15 +93,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestVirtualMemory"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestVirtualMemory"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TestVirtualMemory/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/libTestVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/libTestVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -117,15 +117,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestVirtualMemory/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestVirtualMemory/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UnreachableFramesVirtualMemory">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/libUnreachableFramesVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/libUnreachableFramesVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -141,15 +141,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnreachableFramesVirtualMemory"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnreachableFramesVirtualMemory"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="UnreachableFramesVirtualMemory/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/libUnreachableFramesVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/libUnreachableFramesVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -165,25 +165,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnreachableFramesVirtualMemory/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnreachableFramesVirtualMemory/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="NoEvictionVirtualMemory">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/libNoEvictionVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/libNoEvictionVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -199,15 +199,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 NoEvictionVirtualMemory"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 NoEvictionVirtualMemory"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="NoEvictionVirtualMemory/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/libNoEvictionVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/libNoEvictionVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -223,15 +223,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 NoEvictionVirtualMemory/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 NoEvictionVirtualMemory/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="VirtualMemory">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/libVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/libVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -247,15 +247,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualMemory"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualMemory"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="VirtualMemory/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/libVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/libVirtualMemory.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -271,35 +271,35 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualMemory/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 VirtualMemory/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OffsetDifferentThanIndexMemory">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/libOffsetDifferentThanIndexMemory.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/libOffsetDifferentThanIndexMemory.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -315,15 +315,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 OffsetDifferentThanIndexMemory"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 OffsetDifferentThanIndexMemory"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="OffsetDifferentThanIndexMemory/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/libOffsetDifferentThanIndexMemory.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/libOffsetDifferentThanIndexMemory.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -339,44 +339,44 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 OffsetDifferentThanIndexMemory/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 OffsetDifferentThanIndexMemory/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4Tests_SingleTable">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/ex4Tests_SingleTable" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/ex4Tests_SingleTable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DINC_TESTING_CODE"/>
 					<Add option="-DSINGLE_TABLE_CONSTANTS"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/tests/.."/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/.."/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -386,24 +386,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ex4Tests_SingleTable"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 ex4Tests_SingleTable"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4Tests_SingleTable/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/ex4Tests_SingleTable" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/ex4Tests_SingleTable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DINC_TESTING_CODE"/>
 					<Add option="-DSINGLE_TABLE_CONSTANTS"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/tests/.."/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/.."/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -413,24 +413,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ex4Tests_SingleTable/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 ex4Tests_SingleTable/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4Tests_OffsetDifferentThanIndex">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/ex4Tests_OffsetDifferentThanIndex" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/ex4Tests_OffsetDifferentThanIndex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DINC_TESTING_CODE"/>
 					<Add option="-DOFFSET_DIFFERENT_FROM_INDEX"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/tests/.."/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/.."/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -440,24 +440,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ex4Tests_OffsetDifferentThanIndex"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 ex4Tests_OffsetDifferentThanIndex"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4Tests_OffsetDifferentThanIndex/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/ex4Tests_OffsetDifferentThanIndex" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/ex4Tests_OffsetDifferentThanIndex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DINC_TESTING_CODE"/>
 					<Add option="-DOFFSET_DIFFERENT_FROM_INDEX"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/tests/.."/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/.."/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -467,24 +467,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ex4Tests_OffsetDifferentThanIndex/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 ex4Tests_OffsetDifferentThanIndex/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4Tests_NormalConstants">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/ex4Tests_NormalConstants" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/ex4Tests_NormalConstants" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DINC_TESTING_CODE"/>
 					<Add option="-DNORMAL_CONSTANTS"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/tests/.."/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/.."/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -494,24 +494,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ex4Tests_NormalConstants"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 ex4Tests_NormalConstants"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4Tests_NormalConstants/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/ex4Tests_NormalConstants" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/ex4Tests_NormalConstants" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DINC_TESTING_CODE"/>
 					<Add option="-DNORMAL_CONSTANTS"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/tests/.."/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/.."/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -521,24 +521,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ex4Tests_NormalConstants/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 ex4Tests_NormalConstants/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4Tests_SmallConstants">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/ex4Tests_SmallConstants" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/ex4Tests_SmallConstants" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DINC_TESTING_CODE"/>
 					<Add option="-DTEST_CONSTANTS"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/tests/.."/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/.."/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -548,24 +548,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ex4Tests_SmallConstants"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 ex4Tests_SmallConstants"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4Tests_SmallConstants/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/ex4Tests_SmallConstants" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/ex4Tests_SmallConstants" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DINC_TESTING_CODE"/>
 					<Add option="-DTEST_CONSTANTS"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/tests/.."/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/.."/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -575,24 +575,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ex4Tests_SmallConstants/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 ex4Tests_SmallConstants/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4Tests_NoEviction">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/ex4Tests_NoEviction" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/ex4Tests_NoEviction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DINC_TESTING_CODE"/>
 					<Add option="-DNO_EVICTION_CONSTANTS"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/tests/.."/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/.."/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -602,24 +602,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ex4Tests_NoEviction"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 ex4Tests_NoEviction"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4Tests_NoEviction/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/ex4Tests_NoEviction" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/ex4Tests_NoEviction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DINC_TESTING_CODE"/>
 					<Add option="-DNO_EVICTION_CONSTANTS"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/tests/.."/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/.."/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -629,24 +629,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ex4Tests_NoEviction/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 ex4Tests_NoEviction/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4Tests_UnreachableFrames">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/ex4Tests_UnreachableFrames" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/ex4Tests_UnreachableFrames" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DINC_TESTING_CODE"/>
 					<Add option="-DUNREACHABLE_FRAMES_CONSTANTS"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/tests/.."/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/.."/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -656,24 +656,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ex4Tests_UnreachableFrames"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 ex4Tests_UnreachableFrames"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ex4Tests_UnreachableFrames/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/ex4Tests_UnreachableFrames" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/ex4Tests_UnreachableFrames" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DINC_TESTING_CODE"/>
 					<Add option="-DUNREACHABLE_FRAMES_CONSTANTS"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/tests/.."/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/.."/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -683,23 +683,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 ex4Tests_UnreachableFrames/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 ex4Tests_UnreachableFrames/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -709,23 +709,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -735,23 +735,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -761,23 +761,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -787,21 +787,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -811,21 +811,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -835,21 +835,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -859,21 +859,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest"/>
+				<Option output="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/include"/>
-					<Add directory="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/include"/>
+					<Add directory="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -883,14 +883,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/MemoryConstants.h">
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/MemoryConstants.h">
 			<Option target="SingleTableVirtualMemory"/>
 			<Option target="TestVirtualMemory"/>
 			<Option target="UnreachableFramesVirtualMemory"/>
@@ -898,7 +898,7 @@
 			<Option target="VirtualMemory"/>
 			<Option target="OffsetDifferentThanIndexMemory"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.cpp">
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.cpp">
 			<Option target="SingleTableVirtualMemory"/>
 			<Option target="TestVirtualMemory"/>
 			<Option target="UnreachableFramesVirtualMemory"/>
@@ -906,7 +906,7 @@
 			<Option target="VirtualMemory"/>
 			<Option target="OffsetDifferentThanIndexMemory"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/PhysicalMemory.h">
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/PhysicalMemory.h">
 			<Option target="SingleTableVirtualMemory"/>
 			<Option target="TestVirtualMemory"/>
 			<Option target="UnreachableFramesVirtualMemory"/>
@@ -914,7 +914,7 @@
 			<Option target="VirtualMemory"/>
 			<Option target="OffsetDifferentThanIndexMemory"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.cpp">
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.cpp">
 			<Option target="SingleTableVirtualMemory"/>
 			<Option target="TestVirtualMemory"/>
 			<Option target="UnreachableFramesVirtualMemory"/>
@@ -922,7 +922,7 @@
 			<Option target="VirtualMemory"/>
 			<Option target="OffsetDifferentThanIndexMemory"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/VirtualMemory.h">
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/VirtualMemory.h">
 			<Option target="SingleTableVirtualMemory"/>
 			<Option target="TestVirtualMemory"/>
 			<Option target="UnreachableFramesVirtualMemory"/>
@@ -930,19 +930,19 @@
 			<Option target="VirtualMemory"/>
 			<Option target="OffsetDifferentThanIndexMemory"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock/src/gmock-all.cc">
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock/src/gmock_main.cc">
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/src/gtest-all.cc">
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/src/gtest_main.cc">
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/tests/Common.h">
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/Common.h">
 			<Option target="ex4Tests_SingleTable"/>
 			<Option target="ex4Tests_OffsetDifferentThanIndex"/>
 			<Option target="ex4Tests_NormalConstants"/>
@@ -950,7 +950,7 @@
 			<Option target="ex4Tests_NoEviction"/>
 			<Option target="ex4Tests_UnreachableFrames"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/tests/kb_tests.cpp">
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/kb_tests.cpp">
 			<Option target="ex4Tests_SingleTable"/>
 			<Option target="ex4Tests_OffsetDifferentThanIndex"/>
 			<Option target="ex4Tests_NormalConstants"/>
@@ -958,41 +958,41 @@
 			<Option target="ex4Tests_NoEviction"/>
 			<Option target="ex4Tests_UnreachableFrames"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/CMakeLists.txt">
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/tests/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\tests\"/>
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests_os_ex4\"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/tests/CMakeLists.txt.in">
-			<Option virtualFolder="CMake Files\tests\"/>
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/tests_os_ex4/CMakeLists.txt.in">
+			<Option virtualFolder="CMake Files\tests_os_ex4\"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\cmake-build-debug\tests\googletest-src\"/>
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\cmake-build-debug\tests\googletest-src\googlemock\"/>
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\googlemock\"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock/cmake/gmock.pc.in">
-			<Option virtualFolder="CMake Files\cmake-build-debug\tests\googletest-src\googlemock\cmake\"/>
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googlemock/cmake/gmock_main.pc.in">
-			<Option virtualFolder="CMake Files\cmake-build-debug\tests\googletest-src\googlemock\cmake\"/>
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\cmake-build-debug\tests\googletest-src\googletest\"/>
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\googletest\"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/cmake/Config.cmake.in">
-			<Option virtualFolder="CMake Files\cmake-build-debug\tests\googletest-src\googletest\cmake\"/>
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/cmake/gtest.pc.in">
-			<Option virtualFolder="CMake Files\cmake-build-debug\tests\googletest-src\googletest\cmake\"/>
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/cmake/gtest_main.pc.in">
-			<Option virtualFolder="CMake Files\cmake-build-debug\tests\googletest-src\googletest\cmake\"/>
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/tests/googletest-src/googletest/cmake/internal_utils.cmake">
-			<Option virtualFolder="CMake Files\cmake-build-debug\tests\googletest-src\googletest\cmake\"/>
+		<Unit filename="/cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/tests_os_ex4/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\tests_os_ex4\googletest-src\googletest\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

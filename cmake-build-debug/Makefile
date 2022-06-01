@@ -57,10 +57,10 @@ RM = /usr/local/APP/jetbrains/clion/2021.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cs/usr/oren_gerc/OS/virtual-memory
+CMAKE_SOURCE_DIR = /cs/usr/nitaiseri/Desktop/OS/virtual-memory
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug
+CMAKE_BINARY_DIR = /cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles /cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles /cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cs/usr/oren_gerc/OS/virtual-memory/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cs/usr/nitaiseri/Desktop/OS/virtual-memory/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -249,7 +249,7 @@ ex4Tests_SingleTable: cmake_check_build_system
 
 # fast build rule for target.
 ex4Tests_SingleTable/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ex4Tests_SingleTable.dir/build.make tests/CMakeFiles/ex4Tests_SingleTable.dir/build
+	$(MAKE) $(MAKESILENT) -f tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/build.make tests_os_ex4/CMakeFiles/ex4Tests_SingleTable.dir/build
 .PHONY : ex4Tests_SingleTable/fast
 
 #=============================================================================
@@ -262,7 +262,7 @@ ex4Tests_OffsetDifferentThanIndex: cmake_check_build_system
 
 # fast build rule for target.
 ex4Tests_OffsetDifferentThanIndex/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/build.make tests/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/build
+	$(MAKE) $(MAKESILENT) -f tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/build.make tests_os_ex4/CMakeFiles/ex4Tests_OffsetDifferentThanIndex.dir/build
 .PHONY : ex4Tests_OffsetDifferentThanIndex/fast
 
 #=============================================================================
@@ -275,7 +275,7 @@ ex4Tests_NormalConstants: cmake_check_build_system
 
 # fast build rule for target.
 ex4Tests_NormalConstants/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ex4Tests_NormalConstants.dir/build.make tests/CMakeFiles/ex4Tests_NormalConstants.dir/build
+	$(MAKE) $(MAKESILENT) -f tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/build.make tests_os_ex4/CMakeFiles/ex4Tests_NormalConstants.dir/build
 .PHONY : ex4Tests_NormalConstants/fast
 
 #=============================================================================
@@ -288,7 +288,7 @@ ex4Tests_SmallConstants: cmake_check_build_system
 
 # fast build rule for target.
 ex4Tests_SmallConstants/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ex4Tests_SmallConstants.dir/build.make tests/CMakeFiles/ex4Tests_SmallConstants.dir/build
+	$(MAKE) $(MAKESILENT) -f tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/build.make tests_os_ex4/CMakeFiles/ex4Tests_SmallConstants.dir/build
 .PHONY : ex4Tests_SmallConstants/fast
 
 #=============================================================================
@@ -301,7 +301,7 @@ ex4Tests_NoEviction: cmake_check_build_system
 
 # fast build rule for target.
 ex4Tests_NoEviction/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ex4Tests_NoEviction.dir/build.make tests/CMakeFiles/ex4Tests_NoEviction.dir/build
+	$(MAKE) $(MAKESILENT) -f tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/build.make tests_os_ex4/CMakeFiles/ex4Tests_NoEviction.dir/build
 .PHONY : ex4Tests_NoEviction/fast
 
 #=============================================================================
@@ -314,7 +314,7 @@ ex4Tests_UnreachableFrames: cmake_check_build_system
 
 # fast build rule for target.
 ex4Tests_UnreachableFrames/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ex4Tests_UnreachableFrames.dir/build.make tests/CMakeFiles/ex4Tests_UnreachableFrames.dir/build
+	$(MAKE) $(MAKESILENT) -f tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/build.make tests_os_ex4/CMakeFiles/ex4Tests_UnreachableFrames.dir/build
 .PHONY : ex4Tests_UnreachableFrames/fast
 
 #=============================================================================
@@ -327,7 +327,7 @@ gmock_main: cmake_check_build_system
 
 # fast build rule for target.
 gmock_main/fast:
-	$(MAKE) $(MAKESILENT) -f tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make tests/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+	$(MAKE) $(MAKESILENT) -f tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 #=============================================================================
@@ -340,7 +340,7 @@ gmock: cmake_check_build_system
 
 # fast build rule for target.
 gmock/fast:
-	$(MAKE) $(MAKESILENT) -f tests/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make tests/googletest-build/googlemock/CMakeFiles/gmock.dir/build
+	$(MAKE) $(MAKESILENT) -f tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make tests_os_ex4/googletest-build/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 #=============================================================================
@@ -353,7 +353,7 @@ gtest_main: cmake_check_build_system
 
 # fast build rule for target.
 gtest_main/fast:
-	$(MAKE) $(MAKESILENT) -f tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make tests/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
+	$(MAKE) $(MAKESILENT) -f tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
 #=============================================================================
@@ -366,7 +366,7 @@ gtest: cmake_check_build_system
 
 # fast build rule for target.
 gtest/fast:
-	$(MAKE) $(MAKESILENT) -f tests/googletest-build/googletest/CMakeFiles/gtest.dir/build.make tests/googletest-build/googletest/CMakeFiles/gtest.dir/build
+	$(MAKE) $(MAKESILENT) -f tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/build.make tests_os_ex4/googletest-build/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
 PhysicalMemory.o: PhysicalMemory.cpp.o

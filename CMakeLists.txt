@@ -66,5 +66,5 @@ createVMTarget(NoEvictionVirtualMemory NO_EVICTION_CONSTANTS)
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 # Add tests
-add_subdirectory(tests)
+add_subdirectory(tests_os_ex4)
 

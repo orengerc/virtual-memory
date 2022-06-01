@@ -5,7 +5,6 @@
 #define FAILURE 0
 #define NOT_FOUND -1
 
-//TODO בדיקות קלט
 
 struct cell {
     unsigned long val: OFFSET_WIDTH;
@@ -219,8 +218,17 @@ uint64_t searchForFrame(cell *entries, uint64_t index, uint64_t currentFrame, ui
  * */
 cell getBits(uint64_t number, int i)
 {
-    return cell{((number << ((64 - VIRTUAL_ADDRESS_WIDTH) + (OFFSET_WIDTH*i))) >> (64 - OFFSET_WIDTH))};
+    if(VIRTUAL_ADDRESS_WIDTH % OFFSET_WIDTH == 0){
+        return cell{((number << ((64 - VIRTUAL_ADDRESS_WIDTH) + (OFFSET_WIDTH*i))) >> (64 - OFFSET_WIDTH))};
+    }
+    else{
+        if(i!=0){
+            return cell{((number << ((64 - VIRTUAL_ADDRESS_WIDTH) + (OFFSET_WIDTH*(i-1)+(VIRTUAL_ADDRESS_WIDTH%OFFSET_WIDTH)))) >> (64 - OFFSET_WIDTH))};
+        }
+        return cell{((number << ((64 - VIRTUAL_ADDRESS_WIDTH))) >> (64 - (VIRTUAL_ADDRESS_WIDTH%OFFSET_WIDTH)))};
+    }
 }
+
 
 /**
  * Traverses the tree.
